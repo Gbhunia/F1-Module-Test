@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background: #1E1E1E;
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    font-family: Quattrocento;
+}
+p {
+    font-family: Ruda;
+}
+
+/* Nav Container */
+
+.nav-container {
+    /* position: absolute;
+    width: 1728px; */
+    height: 111px;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-family: Ruda;
+    
+    background: #000000;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.nav-text {
+    font-weight: 700;
+font-size: 29px;
+line-height: 0px;
+}
+.nav-tags {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+
+}
+.nav-tags a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 0px;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+.insta-icon {
+    margin-top: 15px;
+
+}
+
+/* Header Container */
+
+
+.header-container {
+    width: 1200px;
+}
+
+.pizza1 {
+    width: 2000px;
+    margin-left: 330px;
+}
+.header-container > h1 {
+        position: absolute;
+width: 902px;
+height: 215px;
+left: 471px;
+top: 240px;
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 700;
+font-size: 101px;
+line-height: 108px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+.header-container > p {
+    position: absolute;
+width: 599px;
+height: 325px;
+left: 570px;
+top: 613px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+
+
+/* About Us Container */
+
+.about-us-container {
+    width: 70%;
+    margin: auto;
+}
+.about-us-container > h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 55px auto;
+    text-align: center;
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+}
+.about-us-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+}
+.about-us-container > div > p {
+    font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 0.09em;
+padding-right: 50px;
+}
+
+
+
+/* Menu Container */
+.menu-container {
+    width: 70%;
+    margin: auto;
+}
+
+.menu-container > h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-align: center;
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+}
+.menu-container > p {
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 40px;
+/* border: 10px solid salmon; */
+}
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    padding: 5px;
+}
+.card-text {
+    font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+letter-spacing: 0.09em;
+    padding: 22px;
+}
+
+/* Find Us Container */
+
+.find-us-container {
+    width: 70%;
+    margin: auto;
+}
+.find-us-container > h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+}
+.red-rectangle {
+    margin: auto;
+    width: 499px;
+height: 9px;
+margin-bottom: 50px;
+}
+.find-us-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+}
+.find-us-container-text {
+    margin-right: 200px;
+    font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+.map-pointer-icon {
+    margin-top: 20px;
+    margin-right: 50px;
+    mix-blend-mode: normal;
+    /* Gray 6 */
+    
+    border: 4px solid #F2F2F2;
+}
+.calling-icon {
+    margin-right: 50px;
+    margin-top: 20px;
+    mix-blend-mode: normal;
+/* Gray 6 */
+
+border: 5px solid #F2F2F2;
+}
+
+
+/* Footer */
+
+footer {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.email-icon {
+    width: 50px;
+    height: 40px;
+    margin-right: 50px;
+}
